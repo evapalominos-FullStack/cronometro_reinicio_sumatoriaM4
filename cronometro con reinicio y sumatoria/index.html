@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cronómetro con reinicio y sumatoria</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        section { border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; border-radius: 8px; }
+    </style>
+</head>
+<body>
+
+    <section>
+        <h2>Clase Cronómetro</h2>
+        <button onclick="mostrarTiempo()">Mostrar tiempo transcurrido</button>
+        <button onclick="reiniciarCronometro()">Reiniciar cronómetro</button>
+        <p id="salidaCronometro">Tiempo: 0:00</p>
+    </section>
+
+    <section>
+        <h2>Clase Sumatoria</h2>
+        <button onclick="ejecutarSumar()">Ejecutar sumar</button>
+        <div id="salidaSumatoria"></div>
+    </section>
+
+    <script src="./asset/app.js"></script>
+</body>
+</html>
